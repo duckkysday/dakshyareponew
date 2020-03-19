@@ -2,6 +2,24 @@
 # yarn lockfile v1
 
 
+"@framer/maximedegreve.tinyfaces@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.framer.com/@framer/maximedegreve.tinyfaces/-/@framer/maximedegreve.tinyfaces-1.4.0.tgz#1dc72e2f5f564f77f95f22cf1a586b2a060b0590"
+  integrity sha512-hchdqzkQjDvHFP7H0WN7wHfFufxM7XBLIWvG+22mNc4GawL/CSRYwssk1ao8ivniXmlqP076KRaooBpIUXfe7A==
+
+"@framer/steveruizok.undraw@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/steveruizok.undraw/-/@framer/steveruizok.undraw-1.0.0.tgz#fad81c89b482b4c125c6eaf02f66a2663ba6172f"
+  integrity sha512-wVSWfcPZR6XjlSNuUs7CXYxFvWvo1Igpfmi5Duk9KvYoSmjXqqfgP/hIC08/cH+vjbxQqbI+ZlzwpxyCDqSboQ==
+  dependencies:
+    hsl-to-hex "^1.0.0"
+    react-undraw "^1.14.0"
+
+"@framer/unsplash.unsplash@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/unsplash.unsplash/-/@framer/unsplash.unsplash-1.0.0.tgz#ba5a419cd405a6d2bf7ee81bd760cdbe935de630"
+  integrity sha1-ulpBnNQFptK/fugb12DNvpNd5jA=
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
@@ -19,3 +37,53 @@ csstype@^2.2.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.1.tgz#4cfbf637a577497036ebcd7e32647ef19a0b8076"
   integrity sha512-wv7IRqCGsL7WGKB8gPvrl+++HlFM9kxAM6jL1EXNPNTshEJYilMkbfS2SnuHha77uosp/YVK0wAp2jmlBzn1tg==
+
+hsl-to-hex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hsl-to-hex/-/hsl-to-hex-1.0.0.tgz#c58c826dc6d2f1e0a5ff1da5a7ecbf03faac1352"
+  integrity sha1-xYyCbcbS8eCl/x2lp+y/A/qsE1I=
+  dependencies:
+    hsl-to-rgb-for-reals "^1.1.0"
+
+hsl-to-rgb-for-reals@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/hsl-to-rgb-for-reals/-/hsl-to-rgb-for-reals-1.1.1.tgz#e1eb23f6b78016e3722431df68197e6dcdc016d9"
+  integrity sha512-LgOWAkrN0rFaQpfdWBQlv/VhkOxb5AsBjk6NQVx4yEzWS923T07X0M1Y0VNko2H52HeSpZrZNNMJ0aFqsdVzQg==
+
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
+prop-types@^15.7.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
+react-is@^16.8.1:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
+  integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
+
+react-undraw@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/react-undraw/-/react-undraw-1.14.0.tgz#e7ee5bb5d7d225b4887f874e61a13f4527331f03"
+  integrity sha512-76umZNxfmrGPguebytu9t1PIkyd5wOsHk/sA+5/T9qLpCtKYOvAY9QGGNKTgQSKpTtqv7CWWht8RZ14CSRodMg==
+  dependencies:
+    prop-types "^15.7.2"

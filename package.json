@@ -11,5 +11,10 @@
 	"framer": {
 		"id": "2ce294ad-5d8f-4572-b314-7511ed88aa37"
 	},
-	"author": "Dakshya Sharma"
+	"author": "Dakshya Sharma",
+	"dependencies": {
+		"@framer/maximedegreve.tinyfaces": "^1.4.0",
+		"@framer/steveruizok.undraw": "^1.0.0",
+		"@framer/unsplash.unsplash": "^1.0.0"
+	}
 }
